@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>MusicApp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-container">
+            <div class="left-container">
+                <div class="library">
+                    <div>MUSIC</div>
+                </div>
+                <div class="menu-item playlist">
+                    <div class="playlist-icon material-icons">library_music</div>
+                    <div class="item">Playlist</div>
+                </div>
+                <div class="menu-item songs">
+                    <div class="songs-icon material-icons">music_note</div>
+                    <div class="item">Songs</div>
+                </div>
+                <div class="menu-item favourite">
+                    <div class="favourite-icon material-icons">favorite</div>
+                    <div class="item">For You</div>
+                </div>
+            </div>
+            <div class="mid-container">
+                <img style="width: 60vw;height: 90vh;" src="./Har Funn Maula - Koi Jaane Na 128 Kbps.mp3" alt="">
+            </div>
+            <div class="right-container">
+                <h2 id="heading">Songs</h2>
+            </div>
+        </div>
+        <div class="song-container">
+            <!-- <div class="rewind"><img src="https://img.icons8.com/ios/24/000000/rewind.png"/></div> -->
+
+            <audio id="player">
+                <!-- <source src="./../../Downloads/Whats Goin On (Salaam Namaste)(Geet-Mp3 (mp3cut.net).mp3"> -->
+                <source src="./song1.mp3">
+
+             </audio>
+
+            <div class="rewind material-icons">skip_previous</div>
+            <div class="play-pause material-icons">play_circle_filled</div>
+            <div class="forward material-icons">skip_next</div>
+            <span class="minute">00</span>:<span class="second">00</span>
+            <div class="progress-bar-container">
+                <div class="timer" >
+                </div>
+            </div>
+            <span class="end-minute">00</span>:<span class="end-second">00</span>
+            <div class="volume">
+                <div class="material-icons vol-icon" style="margin-left: 5px;">volume_up</div>
+                <div class="volumeSliderContainer">
+                    <div id="volumeSlider"></div>
+                </div>
+
+                <!-- <span>-</span>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.01">
+                <span>+</span> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="allSongs.json"></script>
+<!-- <script src="server.js"></script> -->
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,197 @@
+let allSongs=[
+  {
+    "Title": "Lover",
+    "Artist": "Taylor Swift",
+    "URL": "https://gaana.com/album/lover-english-2019-6"
+  },
+  {
+    "Title": "Justice",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/justice-english-2021-1"
+  },
+  {
+    "Title": "Butter",
+    "Artist": "BTS",
+    "URL": "https://gaana.com/album/butter-english-2021-4"
+  },
+  {
+    "Title": "Jalebi Baby",
+    "Artist": "Tesher",
+    "URL": "https://gaana.com/album/jalebi-baby-english"
+  },
+  {
+    "Title": "Such A Whore",
+    "Artist": "Bass Stell",
+    "URL": "https://gaana.com/album/such-a-whore"
+  },
+  {
+    "Title": "Believer",
+    "Artist": "Imagine Dragons",
+    "URL": "https://gaana.com/album/believer-2019"
+  },
+  {
+    "Title": "Dynamite (DayTime Version)",
+    "Artist": "BTS",
+    "URL": "https://gaana.com/album/dynamite-deluxe"
+  },
+  {
+    "Title": "SugarCrash!",
+    "Artist": "ElyOtto",
+    "URL": "https://gaana.com/album/sugarcrash-english"
+  },
+  {
+    "Title": "Memories",
+    "Artist": "Maroon 5",
+    "URL": "https://gaana.com/album/memories-english-2019-18"
+  },
+  {
+    "Title": "Believers",
+    "Artist": "Alan Walker",
+    "URL": "https://gaana.com/album/believers-english-2021"
+  },
+  {
+    "Title": "MAP OF THE SOUL : 7",
+    "Artist": "BTS",
+    "URL": "https://gaana.com/album/map-of-the-soul-7"
+  },
+  {
+    "Title": "MONTERO (Call Me By Your Name)",
+    "Artist": "Lil Nas X",
+    "URL": "https://gaana.com/album/montero-call-me-by-your-name-english"
+  },
+  {
+    "Title": "Astronaut In The Ocean",
+    "Artist": "Masked Wolf",
+    "URL": "https://gaana.com/album/astronaut-in-the-ocean"
+  },
+  {
+    "Title": "Shape Of You",
+    "Artist": "Ed Sheeran",
+    "URL": "https://gaana.com/album/shape-of-you"
+  },
+  {
+    "Title": "Echo (With KSHMR)",
+    "Artist": "Armaan Malik",
+    "URL": "https://gaana.com/album/echo-with-kshmr"
+  },
+  {
+    "Title": "Hold On",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/hold-on-english-2021-20"
+  },
+  {
+    "Title": "Baila Conmigo",
+    "Artist": "Selena Gomez",
+    "URL": "https://gaana.com/album/baila-conmigo-english-1"
+  },
+  {
+    "Title": "Cheap Thrills",
+    "Artist": "SIA",
+    "URL": "https://gaana.com/album/cheap-thrills-english-2016"
+  },
+  {
+    "Title": "Savage Love (Laxed - Siren Beat) [BTS Remix]",
+    "Artist": "Jawsh 685",
+    "URL": "https://gaana.com/album/savage-love-laxed-siren-beat-bts-remix"
+  },
+  {
+    "Title": "Jalebi Baby",
+    "Artist": "Tesher",
+    "URL": "https://gaana.com/album/jalebi-baby-english-2021-1"
+  },
+  {
+    "Title": "At My Worst (Feat. Kehlani)",
+    "Artist": "Pink Sweat$",
+    "URL": "https://gaana.com/album/at-my-worst-feat-kehlani"
+  },
+  {
+    "Title": "Selfish Love",
+    "Artist": "DJ Snake",
+    "URL": "https://gaana.com/album/selfish-love-english-2021"
+  },
+  {
+    "Title": "Encore",
+    "Artist": "DJ Snake",
+    "URL": "https://gaana.com/album/encore-2016"
+  },
+  {
+    "Title": "Purpose (Deluxe)",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/purpose-deluxe"
+  },
+  {
+    "Title": "Darkside",
+    "Artist": "Alan Walker",
+    "URL": "https://gaana.com/album/darkside-english-2018"
+  },
+  {
+    "Title": "Fifty Shades Of Grey (Original Motion Picture Soundtrack)",
+    "Artist": "Ellie Goulding",
+    "URL": "https://gaana.com/album/fifty-shades-of-grey-original-motion-picture-soundtrack"
+  },
+  {
+    "Title": "Intentions",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/intentions-english-2020"
+  },
+  {
+    "Title": "Yummy",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/yummy-english"
+  },
+  {
+    "Title": "Anyone",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/anyone-english-2021"
+  },
+  {
+    "Title": "BE",
+    "Artist": "BTS",
+    "URL": "https://gaana.com/album/be-korean"
+  },
+  {
+    "Title": "Love Story (Taylor’s Version)",
+    "Artist": "Taylor Swift",
+    "URL": "https://gaana.com/album/love-story-taylors-version"
+  },
+  {
+    "Title": "Without Me",
+    "Artist": "Halsey",
+    "URL": "https://gaana.com/album/without-me"
+  },
+  {
+    "Title": "Evermore",
+    "Artist": "Taylor Swift",
+    "URL": "https://gaana.com/album/evermore-english-2020-1"
+  },
+  {
+    "Title": "My World 2.0",
+    "Artist": "Justin Bieber",
+    "URL": "https://gaana.com/album/my-world-20-english"
+  },
+  {
+    "Title": "Different World",
+    "Artist": "Alan Walker",
+    "URL": "https://gaana.com/album/different-world-2018"
+  },
+  {
+    "Title": "Fake A Smile",
+    "Artist": "Alan Walker",
+    "URL": "https://gaana.com/album/fake-a-smile-english-1"
+  },
+  {
+    "Title": "Love Yourself",
+    "Artist": "BTS",
+    "URL": "https://gaana.com/album/love-yourself-her"
+  },
+  {
+    "Title": "Girls Like You",
+    "Artist": "Maroon 5",
+    "URL": "https://gaana.com/album/girls-like-you"
+  },
+  {
+    "Title": "Safari",
+    "Artist": "Serena",
+    "URL": "https://gaana.com/album/safari-english-2019"
+  }
+]
