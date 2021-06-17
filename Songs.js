@@ -20,6 +20,11 @@ let Songs=[
         "URL": "./Songs/let-me-love-you.mp3"
       },
       {
+        "Title": "I Hate You, I Love You",
+        "Artist":"Gnash Feat. Olivia O'Brien",
+        "URL":"./Songs/gnash - i hate u, i love u (ft. olivia o brien).mp3"
+      },
+      {
         "Title": "Love Me Like You Do",
         "Artist": "Ellie Goulding",
         "URL": "./Songs/Love Me Like You Do Full Mp3 Song Download 2021(SongsZilla.Net).mp3"
@@ -33,6 +38,11 @@ let Songs=[
         "Title": "Right Now",
         "Artist": "Nick Jonas",
         "URL": "./Songs/Nick_Jonas_Robin_Schulz_Right_Now.mp3"
+      },
+      {
+        "Title": "Perfect",
+        "Artist":"Ed Sheeran",
+        "URL":"./Songs/Perfect.mp3"
       },
       {
         "Title": "See You Again",
@@ -58,7 +68,7 @@ let Songs=[
         "Title": "Dusk Till Dawn",
         "Artist": "Zayn Malik",
         "URL": "./Songs/Dusk Till Dawn.mp3"
-      },
+      }
       
 ]
 
